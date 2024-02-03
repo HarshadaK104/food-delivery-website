@@ -1,0 +1,97 @@
+body{
+    background-color: #F6EBD0;
+    font-family: 'Poppins'; 
+    text-align: center;
+    width: 100%;
+    background-image: url("Assets/Register.png");
+}
+.cont{
+    position: relative;
+}
+.cont img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: auto;
+    z-index: 1;
+}
+.e2{
+    position: absolute;
+    margin-top: 30rem;
+    z-index: 1;
+}
+.nav{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70rem;
+    margin-left: 3rem;
+}
+.right-side{
+    width: 50%;
+}
+.left-side{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    font-weight: 400;
+    color: #ffffff;
+}
+label{
+    color: #5C3018;
+    font-size: xx-large;
+    font-weight: 500;
+    margin: 40px 50px 40px 50px;
+}
+input{
+    height: 60px;
+    width: 544px;
+    border: #5C3018 solid;
+    background-color: #F6DC98;
+    margin: 40px 50px 40px 50px;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    position: relative;
+    z-index: 2;
+}
+.log{
+    margin-top: 4rem;
+    position: relative;
+    z-index: 2;
+}
+.register{
+    color: #000000;
+}
+button{
+    height: 50px;
+    width: 200px;
+    padding: 12.5px 30px;
+    border: 0;
+    border-radius: 100px;
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: Bold;
+    cursor: pointer;
+}
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:active {
+    color:white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
