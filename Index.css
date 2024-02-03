@@ -1,0 +1,236 @@
+body{
+    background-color: #F6EBD0;
+    font-family: 'Poppins';
+    
+}
+.navbar{
+    display: flex;
+    gap: 2px;
+    margin: 20px 30px 20px 30px;
+}
+.right-side{
+    width: 50%;
+}
+.left-side{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+.Login{
+  height: 50px;
+  width: 200px;
+  padding: 12.5px 30px;
+  border: 0;
+  border-radius: 100px;
+  background-color: #5C3018;
+  color: #ffffff;
+  font-weight: Bold;
+  cursor: pointer;
+}
+button:hover {
+    background-color: #5C3018;
+    box-shadow: 0 0 20px #6fc5ff50;
+    transform: scale(1.1);
+}  
+button:active {
+    background-color: #5C3018;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+    transform: scale(0.98);
+}
+.hero{
+    background-image: url("Assets/hexagonbg\ 1.png");
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero_1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 6rem;
+    text-align: center;
+    font-size: x-large;
+}
+.order{
+  height: 50px;
+  width: 200px;
+  margin-left: 3rem;
+  padding: 12.5px 30px;
+  border: 0;
+  border-radius: 100px;
+  background-color: #000000;
+  color: #ffffff;
+  font-weight: Bold;
+  cursor: pointer;
+}
+.offer{
+    background-color: #242424;
+    height: 509px;
+    left: 0;
+    width: 703px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: absolute;
+    z-index: 2;
+    margin-left: 0.5rem;
+    
+}
+.mid h1{
+    font-weight: bolder;
+    font-size: xx-large;
+    margin-top: 7rem;
+}
+.terms{
+    margin-top: 6rem;
+    margin-left: 25rem;
+    font-size: xx-small;
+}
+.vegan{
+   height: 1024px;
+   width: 100%;
+   background-color: #5C3018;
+   position: relative;
+   z-index: 1;
+   margin-top: 254px;
+}
+.leaf{
+    margin-left: 703px;
+    width: 62%;
+}
+.vegan2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25rem;
+    margin-left: 5rem;
+    margin-right: 8rem;
+}
+.right{
+    width: 600px;
+    color: white;
+    text-align: center;
+}
+.explore{
+  height: 50px;
+  width: 200px;
+  margin-left: 3rem;
+  padding: 12.5px 30px;
+  border: 0;
+  border-radius: 100px;
+  color: #000000;
+  background-color: #F6EBD0;
+  font-weight: Bold;
+  cursor: pointer;
+}
+.popular{
+    width: 644px;
+   height: 225px;
+   background-color: #A8826D;
+   border-radius: 50%;
+   border-color: #3A2A21;
+   border-style: solid;
+   border-width: 2rem;
+   position: absolute;
+   z-index: 2;
+   margin-top: 10rem;
+   margin-left: 25%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   font-size: x-large;
+}
+.menu{
+    z-index: 0;
+}
+.jap{
+    z-index: 0;
+    position: absolute;;
+   
+}
+.items{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 3;
+    flex-direction: column;
+    gap: 5rem;
+}
+.row1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    z-index: 3;
+    position: relative;
+    margin-top: 15rem;
+}
+.i1{
+   height: 325px;
+   width: 348px;
+   background-color: #F6DC98;
+   border: #000000 solid;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.row2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+}
+.cir{
+    height: 279px;
+    width: 307px;
+    background-color: #F6EBD0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    
+}
+.price{
+    padding: 8px 30px;
+  border: 0;
+  border-radius: 100px;
+  background-color: #000000;
+  color: white;
+  font-weight: Bold;
+  cursor: pointer;
+}
+.cuisines{
+    height: 1024px;
+    width: 100%;
+    background-color: #5C3018;
+    position: relative;
+    margin-top: 3rem;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+.con{
+    height: 600px;
+    width: 792px;
+    background-color: #F6DC98;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inCon{
+    height: 528px;
+    width: 736px;
+    background-color: #F6EBD0;
+}
+.indian{
+    margin-left: 17rem;
+    margin-top: 3rem;
+}
