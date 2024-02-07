@@ -1,0 +1,129 @@
+body{
+    background-color: #F6EBD0;
+    font-family: 'Poppins'; 
+    text-align: center;
+    width: 100%;
+    background-image: url("Assets/japanese\ 1.png");
+}
+.cont{
+    position: relative;
+}
+
+.nav{
+    margin-top: -16rem;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60rem;
+}
+
+.left-side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    gap: 3rem;
+    color: #ffffff;
+}
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:active {
+    color:white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  .logout{
+    height: 50px;
+    width: 200px;
+    padding: 12.5px 30px;
+    border: 0;
+    border-radius: 100px;
+    background-color: #5C3018;
+    color:white;
+    font-weight: Bold;
+    cursor: pointer;
+}
+  .Menu{
+    width: 313px;
+   height: 122px;
+   background-color: #F6DC98;
+   border-radius: 50%;
+   border-color: black;
+   border-style: solid;
+   position: absolute;
+   z-index: 2;
+   margin-left: 35rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: black;
+   font-size: x-large;
+}
+.allCuisine{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    
+}
+.card1, .card3{
+    height: 407px;
+    width: 411px;
+    background-color: #5C3018;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15rem;
+    margin-top: 8rem;
+}
+.card2 {
+    height: 407px;
+    width: 411px;
+    background-color: #5C3018;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15rem;
+    margin-top: 20rem;
+}
+.desc{
+    width: 360px;
+    height: 107px;
+    background-color: black;
+    color: #ffffff;
+    border: #F6EBD0 solid;
+    border-width: 0px 0.75rem 0.75rem 0px;
+    margin-top: -15rem;
+}
+
+.b1{
+    width: 178px;
+    height: 75px;
+    background-color: #5C3018;
+    color: white;
+    border-radius: 20px;
+
+}
+.b2{
+    width: 178px;
+    height: 75px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    margin-left: 50rem;
+}
+.btn{
+    margin-top: 2rem;
+}

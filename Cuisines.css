@@ -1,0 +1,138 @@
+body{
+    background-color: #F6EBD0;
+    font-family: 'Poppins'; 
+    text-align: center;
+    width: 100%;
+    background-image: url("Assets/heringbone.png");
+}
+.cont{
+    position: relative;
+}
+.cont img {
+    position: absolute;
+    margin-top: -2rem;
+    margin-left: 2rem;
+    left: 0;
+    height: auto;
+    z-index: 1;
+}
+.nav{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60rem;
+}
+
+.left-side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    gap: 3rem;
+    color: #ffffff;
+}
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:active {
+    color:white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+button{
+    height: 50px;
+    width: 200px;
+    padding: 12.5px 30px;
+    border: 0;
+    border-radius: 100px;
+    background-color: #5C3018;
+    color:white;
+    font-weight: Bold;
+    cursor: pointer;
+}
+.Cuisines{
+    width: 313px;
+   height: 122px;
+   background-color: #F6DC98;
+   border-radius: 50%;
+   border-color: black;
+   border-style: solid;
+   position: absolute;
+   z-index: 2;
+   margin-top: 2rem;
+   margin-left: 35rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: black;
+   font-size: x-large;
+}
+.allCuisine{
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15rem;
+    margin-left: 6rem;
+    gap: 5rem;
+}
+.indian{
+    width: 1250px;
+    height: 230px;
+    background-color: #5C3018;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+.left{
+ width: 40%;
+ margin-top: -10rem;
+}
+.rightIn{
+    color: #F6DC98;
+    font-weight: 100;
+    display: flex;
+    flex-direction: column;
+}
+.italian{
+    width: 1250px;
+    height: 230px;
+    background-color: #F6DC98;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    
+}
+.chinese{
+    width: 1250px;
+    height: 230px;
+    background-color: black;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+.leftCh{
+    width: 40%;
+    margin-top: -15rem;
+   }
+.rightCh{
+    color: white;
+    font-weight: 100;
+    display: flex;
+    flex-direction: column;
+}
+.leftIt{
+    width: 40%;
+    margin-top: 2rem;
+   }
