@@ -1,0 +1,128 @@
+body{
+    background-color: #F6EBD0;
+    font-family: 'Poppins'; 
+    text-align: center;
+    width: 100%;
+    background-image: url("/Assets/ladder\ 2\ 1.png");
+}
+.cont{
+    position: relative;
+}
+.cont img {
+    position: absolute;
+    margin-top: -2rem;
+    margin-left: 2rem;
+    left: 0;
+    height: auto;
+    z-index: 1;
+}
+.home{
+    color: black;
+}
+.nav{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60rem;
+}
+
+.left-side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    gap: 3rem;
+    color: #ffffff;
+}
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:active {
+    color:white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+button{
+    height: 50px;
+    width: 200px;
+    padding: 12.5px 30px;
+    border: 0;
+    border-radius: 100px;
+    background-color: #5C3018;
+    color:white;
+    font-weight: Bold;
+    cursor: pointer;
+}
+
+.Cuisines{
+    width: 313px;
+   height: 122px;
+   background-color: #F6DC98;
+   border-radius: 50%;
+   border-color: black;
+   border-style: solid;
+   position: absolute;
+   z-index: 2;
+   margin-top: 2rem;
+   margin-left: 35rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: black;
+   font-size: x-large;
+}
+.mode{
+    margin-top: 10rem;
+}
+/* Payment.css */
+
+/* Ensure all images have same dimensions for proper overlapping */
+.card1 img,
+.card2 img,
+.card3 img {
+  width: 262px; /* Adjust as needed */
+  height: 268px; /* Adjust as needed */
+}
+
+.allCuisine {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.card1,
+.card2,
+.card3 {
+  position: relative;
+  margin: 0 10px; /* Adjust spacing between cards */
+  background-image: url(/Assets/card\ 1.png);
+  width: 446.5px;
+  height: 553px;
+}
+
+.card1 img,
+.card2 img,
+.card3 img {
+  position: absolute;
+  top: 9rem;
+  left: 3rem;
+}
+
+/* Adjust z-index to control overlapping */
+.card2 img {
+  z-index: 1; /* Adjust as needed */
+}
+
+.card3 img {
+  z-index: 2; /* Adjust as needed */
+}

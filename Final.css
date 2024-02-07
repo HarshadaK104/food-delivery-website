@@ -1,0 +1,82 @@
+body{
+    background-color: #F6EBD0;
+    font-family: 'Poppins'; 
+    text-align: center;
+    width: 100%;
+    background-image: url("/Assets/ladder\ 2\ 1.png");
+}
+.cont{
+    position: relative;
+}
+.cont img {
+    position: absolute;
+    margin-top: -2rem;
+    margin-left: 2rem;
+    left: 0;
+    height: auto;
+    z-index: 1;
+}
+.home{
+    color: black;
+}
+.nav{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60rem;
+}
+
+.left-side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    gap: 3rem;
+    color: #ffffff;
+}
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:active {
+    color:white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+button{
+    height: 50px;
+    width: 200px;
+    padding: 12.5px 30px;
+    border: 0;
+    border-radius: 100px;
+    background-color: black;
+    color:white;
+    font-weight: Bold;
+    cursor: pointer;
+}
+
+.allCuisine {
+    width: 1290.5px;
+    height: 1011.12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left:5rem ;
+  background-image: url("/Assets/Center\ card.png");
+}
+.text{
+    z-index: 3;
+    color: white;
+}
+
+.b2{
+    margin-left: 40rem;
+}
